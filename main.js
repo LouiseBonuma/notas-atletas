@@ -30,7 +30,7 @@ let atletas = [
      notasComputadas.forEach(function(nota){
        total = total + nota
      })
-     console.log(`Média Válida: ${total/atletas.length}
+     console.log(`Média Válida: ${total/notasComputadas}
      `)
      i = i + 1
      }
